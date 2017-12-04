@@ -34,7 +34,7 @@ def main():
                 i=0
                 for col in columnList:
                     i += 1
-                    print("col"+str(i)+": "+col)
+                    print("col%03d: " % i, col)
 
             elif menu == '2':
                 colIndex = input('column index list (from 1, separated by comma): ') 
